@@ -1,0 +1,39 @@
+.container {
+  background: #fff;
+  width: 55%;
+  padding: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+  & ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  & ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  & ::-webkit-scrollbar-thumb {
+    background: #1b773d77;
+    border-radius: 10px;
+  }
+
+  & ::-webkit-scrollbar-thumb:hover {
+    background: #1b773d93;
+  }
+}
+
+.receivBtn {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.notification {
+  margin: 10px 0;
+  p {
+    text-align: center;
+    font-size: 14px;
+  }
+}
