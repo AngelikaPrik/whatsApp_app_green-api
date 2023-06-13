@@ -1,6 +1,13 @@
 .wrapper {
-	display: flex;
-	align-items: center;
-	gap: 50px;
-	margin: 0 20px;
- }
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+	 row-gap: 20px;
+  }
+}
